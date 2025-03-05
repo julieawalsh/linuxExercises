@@ -19,4 +19,4 @@ if ! [[ "$n" =~ ^[0-9]+$ ]]; then
 fi
 
 find "$dir" -type f -size +"$n"c -exec rm {} \;
-echo "removed all files in '$dir'larger than $n bytes."
+echo "removed all files in '$dir' larger than $n bytes."
